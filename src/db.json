@@ -1,0 +1,14 @@
+{
+	"timeline": [{ 
+		"name": "aura", 
+		"profile": "https://aura.telefonica.com/public/images/logo-aura.png", 
+		"image": "https://news.microsoft.com/wp-content/uploads/prod/sites/42/2020/01/aura-5e163ce6ed84a.jpg",
+		"description": "🎬 Olá eu sou a aura a inteligência artificial"
+	},
+	{ 
+		"name": "telefónica", 
+		"profile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ9UNUo2H0kLuM8H0RUStNj7okOv-ZVXyEgJyOzVtBS-pw-dbZCqKlqCy87MhYqo9OozQ&usqp=CAU", 
+		"image": "https://macmagazine.com.br/wp-content/uploads/2009/02/25-super-quinze.jpg" ,
+		"description": "👋 O super 15 continua imbátivel"
+	}]
+  }

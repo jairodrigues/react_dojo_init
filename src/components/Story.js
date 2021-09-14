@@ -1,14 +1,20 @@
 
-const Story = (props) => (
-	<div className="story">
-		<div className="container">
-			<div className="img-border">
-				<img src={props.logo} className="img-logo"/>
-			</div>
-			<p>{props.nome}</p>
-		</div>				
-	</div>
-)
+import React from 'react';
 
-
-export default Story;
+export default function Story(props) {
+	return (
+		<div className="story">
+			<div className="container">
+				{ props.timeline.map(elm => 
+					<>
+						<div className="img-border">
+							<img src={elm.profile} className="img-logo"/>
+							<br />
+							<p>{elm.name}</p>
+						</div>
+					</>
+				)}			
+			</div>				
+		</div>
+	);
+  }
